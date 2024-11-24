@@ -1,4 +1,4 @@
-package com.chalco.jose.poketinder
+package com.chalco.jose.poketinder.data.model
 
 data class PokemonResponse(val name: String, val url: String) {
     fun getPokemonId() = getIdPokemonFromUrl(url)

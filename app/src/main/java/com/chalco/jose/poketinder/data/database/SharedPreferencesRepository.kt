@@ -1,4 +1,4 @@
-package com.chalco.jose.poketinder
+package com.chalco.jose.poketinder.data.database
 
 import android.content.Context
 import android.content.SharedPreferences

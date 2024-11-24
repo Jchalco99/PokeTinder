@@ -1,8 +1,9 @@
-package com.chalco.jose.poketinder
+package com.chalco.jose.poketinder.ui.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.chalco.jose.poketinder.data.database.SharedPreferencesRepository
 
 class LoginViewModel(val context: Context): ViewModel() {
     val inputsError = MutableLiveData<Boolean>()

@@ -1,4 +1,4 @@
-package com.chalco.jose.poketinder
+package com.chalco.jose.poketinder.ui.adapter
 
 import com.chalco.jose.poketinder.databinding.ItemPokemonBinding
 
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.chalco.jose.poketinder.data.model.PokemonResponse
 
 class PokemonAdapter(var list: List<PokemonResponse>): RecyclerView.Adapter<PokemonAdapter.ViewHolder>() {
     inner class ViewHolder(view: View): RecyclerView.ViewHolder(view) {

@@ -1,4 +1,4 @@
-package com.chalco.jose.poketinder
+package com.chalco.jose.poketinder.data.model
 
 data class PokemonListResponse(
     val count: Int,

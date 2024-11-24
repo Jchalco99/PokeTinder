@@ -1,13 +1,11 @@
-package com.chalco.jose.poketinder
+package com.chalco.jose.poketinder.ui.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.chalco.jose.poketinder.data.database.SharedPreferencesRepository
 import com.chalco.jose.poketinder.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {

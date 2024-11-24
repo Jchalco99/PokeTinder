@@ -1,13 +1,15 @@
-package com.chalco.jose.poketinder
+package com.chalco.jose.poketinder.ui.viewmodel
 
 import androidx.lifecycle.MutableLiveData
+import com.chalco.jose.poketinder.data.model.PokemonResponse
+import com.chalco.jose.poketinder.data.network.PokemonApi
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class MainViewModel {
+class HomeViewModel {
     val pokemonList = MutableLiveData<List<PokemonResponse>>()
 
     val isLoading = MutableLiveData<Boolean>()
